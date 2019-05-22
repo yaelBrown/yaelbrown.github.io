@@ -1,0 +1,31 @@
+.wborder {
+  border: 1px solid #fff;
+  z-index: 999;
+}
+
+.bborder {
+  border: 1px solid #000;
+  z-index: 999;
+}
+
+/*
+  YBstyles
+*/
+
+.yblogo3 {
+  font-size: 5em;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  font-family: 'Zeyada', cursive;
+  display: inline;
+  padding-top: 1em;
+}
+
+/*
+  Body
+*/
+
+body {
+  background-color: #3d3b3c;
+  color: #fff;
+}
