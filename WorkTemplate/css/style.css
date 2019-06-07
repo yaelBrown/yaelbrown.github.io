@@ -1,3 +1,8 @@
+
+/*
+  Define Variables
+*/
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -5,12 +10,24 @@
   font-weight: normal;
   font-style: normal; }
 
-/* =======================================================
-*
-* 	Template Style 
-*	Edit this section
-*
-* ======================================================= */
+/*
+  Borders
+*/
+
+.wborder {
+  border: 1px solid #fff;
+  z-index: 999;
+}
+
+.bborder {
+  border: 1px solid #000;
+  z-index: 999;
+}
+
+/*
+  Page Content
+*/
+
 body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
