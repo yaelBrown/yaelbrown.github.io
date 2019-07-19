@@ -84,10 +84,29 @@ figure {
   color: #fff;
   background: #F75940; }
 
+/* 
+  yblogo 
+*/
+
+.yblogo-topLeft {
+  margin-bottom: 3em;
+  font-size: 22px;
+  float: right;
+}
+
+/* 
+  main page 
+*/
+
 #colorlib-page {
   width: 100%;
   overflow: hidden;
-  position: relative; }
+  position: relative;
+}
+
+/* 
+  left sidebar 
+*/
 
 #colorlib-aside {
   padding-top: 3em;
@@ -233,6 +252,15 @@ figure {
             text-decoration: none;
             outline: none;
             color: #F75940; }
+
+.invisablePara {
+  width: 100%;
+  display: inline-block;
+}
+
+/* 
+  right side of page 
+*/
 
 #colorlib-main {
   width: 80%;
