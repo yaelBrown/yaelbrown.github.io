@@ -1,7 +1,4 @@
-
-/*
-  Define Variables
-*/
+/* Define Variable */
 
 @font-face {
   font-family: 'icomoon';
@@ -10,9 +7,7 @@
   font-weight: normal;
   font-style: normal; }
 
-/*
-  Borders
-*/
+/* Borders */
 
 .wborder {
   border: 1px solid #fff;
@@ -24,9 +19,7 @@
   z-index: 999;
 }
 
-/*
-  Page Content
-*/
+/* Page Content */
 
 body {
   font-family: "Quicksand", Arial, sans-serif;
