@@ -412,7 +412,6 @@ body.offcanvas {
 .colorlib-services,
 .colorlib-contact {
   padding-top: 4em;
-  padding-bottom: 9em;
   clear: both;
   width: 100%;
   display: block; }
@@ -1145,3 +1144,9 @@ body.offcanvas {
     height: inherit !important;
     float: left;
     padding-top: 30px; } }
+
+/* Modified classes */
+
+.name-heading {
+  margin-bottom: 1em;
+}
