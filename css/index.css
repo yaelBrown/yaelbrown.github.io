@@ -1,5 +1,42 @@
-.header {
-  text-align: center;
-  margin: 0 auto 0 auto;
-  font-family: 'Roboto Mono', monospace;
+.centerContent {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.centerContent img {
+  width: 20%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+body {
+  background-color: green;
+}
+
+h1, h3, h4 {
+  line-height: 1.5;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+a:link, a:visited {
+  color: #000;
+}
+
+a:hover {
+  color: red;
+  transition: color .2s;
+}
+
+#socialIcons {
+  margin-top: 2rem;
+}
+
+i {
+  margin-right: 2rem;
 }
