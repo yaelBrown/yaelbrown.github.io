@@ -27,6 +27,11 @@ main, html, body {
   height: 100%;
   padding: 0px;
   margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+a:link, a:visited, a:hover {
+  text-decoration: none;
 }
 
 a:link, a:visited {
@@ -34,7 +39,7 @@ a:link, a:visited {
 }
 
 a:hover {
-  color: red;
+  color: #AF4034;
   transition: color .2s;
 }
 
@@ -54,13 +59,11 @@ nav {
   align-items: flex-start;
 }
 
-.navItemsRight {
-
-}
-
 nav img {
   margin-left: auto;
   margin-bottom: 5rem;
+  border: 1px solid #000;
+  max-width: 125px;
 }
 
 ul {
@@ -74,10 +77,15 @@ nav li {
   list-style: none;
 }
 
+#navLinks {
+  letter-spacing: 1.2px;
+}
+
 nav #socialLinks {
   display: flex;
   position: fixed;
   bottom: 2em;
+  width: 20%;
 }
 
 nav #socialLinks li {
