@@ -27,8 +27,12 @@ main, html, body {
   height: 100%;
   padding: 0px;
   margin: 0px;
-  background-color: #fff;
+  background-color: #FBFBFB;
   font-family: 'Roboto', sans-serif;
+}
+
+h1, h3, h4 {
+  font-family: 'Poiret One', cursive;
 }
 
 /* Page Content */ 

@@ -75,6 +75,8 @@ ul {
 nav li {
   padding: 0;
   list-style: none;
+  font-family: 'Poiret One', cursive;
+  color: #ccc;
 }
 
 #navLinks {
@@ -91,4 +93,12 @@ nav #socialLinks {
 nav #socialLinks li {
   margin-left: 1em;
   text-align: right;
+}
+
+/* main  */
+
+main {
+  width: 60%;
+  margin-left: 25%;
+  height: 100%;
 }
