@@ -1,0 +1,27 @@
+nav > ul {
+  flex-direction: row !important;
+}
+
+nav {
+  background-color: #FBFBFB !important;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.project-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.project-img img {
+  margin: .5em 0;;
+}
+
+.projects > p {
+  margin-top: .5em;
+}
+
