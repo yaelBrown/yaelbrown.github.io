@@ -25,3 +25,14 @@ nav {
   margin-top: .5em;
 }
 
+#first {
+  transition: all .4s;
+}
+
+#first:hover {
+  width: 300px;
+  height: 500px;
+  /* transform: scale(1.1); */
+  transition: transform .2s ease-in-out;
+  transition: all .4s;
+}
