@@ -25,18 +25,16 @@ nav {
   margin-top: .5em;
 }
 
-#first {
-  transition: all .4s;
+.projectCards {
+  background: url("https://www.stevensegallery.com/300/300/");
+  width: 300px;
+  height: 300px;
 }
 
-#first:hover {
-  width: 300px;
-  height: 500px;
+.projectCards:hover {
+  /* width: 300px;
+  height: 500px; */
   /* transform: scale(1.1); */
   transition: transform .2s ease-in-out;
   transition: all .4s;
-}
-
-main {
-
 }

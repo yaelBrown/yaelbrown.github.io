@@ -1,0 +1,81 @@
+Links for yaeldata
+
+Developer & Webmaster Goodies
+  - Firefox Web Developer Add-on: https://addons.mozilla.org/en-US/firefox/addon/web-developer/ 
+  - Google Webmaster Tools: https://www.google.com/webmasters/#?modal_active=none
+  - Google Analytics: http://www.google.com/analytics/
+  - BrowserShots compatibility checker: http://browsershots.org/
+  - Page Load Time Checker: http://tools.pingdom.com/fpt/
+  - Away from home with no FTP program? Net2Ftp: http://net2ftp.com/
+  - Random User Generator - https://randomuser.me/
+Cheatsheets collections
+  - Overapi - http://overapi.com/
+
+HTTP 
+  - http statuses - https://httpstatuses.com/
+  - ascii codes - https://ascii.cl/htmlcodes.htm
+
+High Res Royalty free images
+  - unsplash.com - https://unsplash.com/search/photos/dark
+
+Bootstrap themes
+  - https://startbootstrap.com/
+  - https://www.bootstrapzero.com/
+  - http://wowslider.com/posts/35-top-free-bootstrap-templates-2016-95.html
+
+  - https://medium.com/@traversymedia/10-resources-for-free-website-app-themes-77928980c241
+
+Coding Interview Tips
+  - https://www.interviewcake.com/coding-interview-tips
+
+Podcasts
+  - https://simpleprogrammer.com/ultimate-list-developer-podcasts/
+  - Coding Life - https://itunes.apple.com/us/podcast/welcome-everyone-intro/id1409217628?i=1000415394531&mt=2
+
+Github
+  - Github documentation writing and formatting - https://help.github.com/articles/basic-writing-and-formatting-syntax/
+
+Computer Science
+  - Big-O Notation Cheatsheet - http://bigocheatsheet.com/
+
+CSS
+  - PXtoEM converter - http://pxtoem.com
+  - CSS Navbar w3schools - https://www.w3schools.com/css/css_navbar.asp
+
+JS
+  - Array functions - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+ReactJS
+  - Supported Events for listeners - https://reactjs.org/docs/events.html#supported-events
+
+Spring 5 info
+  - Release notes - http://www.luv2code.com/spring-5-whats-new
+  - FAQ - http://www.luv2code.com/spring-5-faq
+  - SpringMVC docs - https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html
+
+Go
+  - Go lang playground - https://play.golang.org/
+  - Go documentation - https://godoc.org/
+
+Mongo
+  - Mongoose Schema types - https://mongoosejs.com/docs/schematypes.html
+  - JSON to Mongoose - https://transform.now.sh/json-to-mongoose
+
+
+
+
+
+
+
+Consider a Web Internship with a nonprofit organization. 
+Three Steps to Landing a Web Designer Intern Job:
+https://www.forbes.com/sites/allbusiness/2014/04/19/3-steps-to-landing-a-web-designer-internship/#7aca7d2f6a99 
+
+Places to look for Internships:
+
+LinkedIn: https://www.linkedin.com/job/web-design-intern-jobs/
+
+InternMatch: https://www.internmatch.com/s/graphic-design-internships
+
+Glassdoor: https://www.glassdoor.com/Job/web-developer-intern-jobs-SRCH_KO0,20.htm
+InDeed: http://www.indeed.com/jobs?q=Web+Design+Internship&l=
