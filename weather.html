@@ -1,12 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Weather App</h1>
-</body>
+    <title>Weather App</title>
+  </head>
+  <body>
+    <section id="top">
+      <input id="cityName"></input>
+      <button id="searchBtn" onclick="getWeather()">Search</button>
+    </section>
+    <section id="weatherCards">
+      <h3>city name</h3>
+
+    </section>
+    <section id="prevSearch"></section>
+    <button id="clearSearch">Clear Previous Search</button>
+    
+    <script>
+      const cityNameEl = document.getElementById("cityName")
+      const searchBtn = document.getElementById("searchBtn")
+      const weatherCardsEl = document.getElementById("weatherCards")
+      const prevSearchEl = document.getElementById("prevSearch")
+      const clearSearchEl = document.getElementById("clearSearch")
+
+      const getWeather = () => {
+        const cityName = cityNameEl.value
+        addPrevSearch(cityName)
+        
+        const url = `http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid="0578d2c7058a8e117414636e823bb07b"`
+        const err = false
+        
+        fetch(url)
+          .then(res => res.json())
+          .then(res => {
+            const html = res
+            renderWeather(JSON.stringify(html))
+          })
+          .catch(e => renderWeather(e))
+        
+        renderPrevSearch()
+      }
+
+      const renderWeather = (html) => {
+        weatherCardsEl.innerHTML = ""
+        weatherCardsEl.innerHTML = html
+      } 
+
+      const renderPrevSearch = () => {
+        prevSearchEl.innerHTML = ""
+
+        let html = ""
+        let psSet = new Set()
+        
+        localStorage.getItem("prevS").split(";").map((e) => (!(e === '')) ? psSet.add(e.toLowerCase()) : "") 
+        Array.from(psSet.entries()).map(e => html += e[0][0].toUpperCase() + e[0].slice(1) + " ")
+        
+        prevSearchEl.innerHTML = html
+      }
+      
+      const addPrevSearch = v => {
+        let ps = localStorage.getItem("prevS")
+        ps += `;${v}`
+        localStorage.setItem("prevS", ps)
+      }
+
+      const clearPrevSearch = () => {
+        localStorage.setItem("prevS", [])
+      }
+
+      const kelvinToFahr = (k) => ((parseFloat(k) - 273.15) * 1.8 + 32).toFixed(2)
+      const unixDate = (u) => {
+        const d = new Data(u)
+        return `${d.getUTCHours()}:${d.getUTCMinutes()}`
+      }
+
+      renderPrevSearch()
+    </script>
+  </body>
 </html>
