@@ -1,9 +1,0 @@
-ol {
-  color: #fff;
-  counter-reset: li;
-}
-
-li::before {
-  content: counter(li);
-  color: #fff;
-}
